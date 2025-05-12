@@ -27,13 +27,13 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed left-0 right-0 z-50 lg:top-4">
+    <nav className="fixed left-0 right-0 z-50 lg:top-2">
     {/* Desktop Menu */}
         <div className="mx-auto hidden max-w-xl items-center justify-center rounded-full border border-white/30 py-2 backdrop-blur-lg lg:flex">
             <div className="flex items-center justify-between gap-6"> 
                 <div>
                     <a href="/">
-                    <span className="uppercase">David Stones</span>
+                    <span className="uppercase">Dishani Dilrukshi</span>
                     </a>
                 </div>
             
@@ -62,7 +62,7 @@ const Navbar = () => {
             <div className="flex items-center justify-between">
                 <div>
                 <a href="#">
-                    <span className="pl-2 uppercase">David Stones</span>
+                    <span className="pl-2 uppercase">Dishani Dilrukshi</span>
                 </a>
                 </div>
                 <div className="flex items-center">
