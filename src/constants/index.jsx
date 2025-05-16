@@ -65,13 +65,22 @@ export const PROJECTS = [
   // },
   {
     id: 2,
-    title: "Social Media App",
+    title: "Efficient Healthcare Admin Platform",
     description:
-      "A real-time social media app with chat, notifications, and a customizable profile page. Built with React, Firebase, and Redux for state management.",
-    techStack: ["React", "Firebase", "Redux"],
+      "A modern and efficient Clinic Management System designed to streamline patient records, appointments, billing, and more. Built with a user-friendly interface and robust features to enhance healthcare administration.",
+    techStack: ["Python", "FirDjango", "Bootstrap","Charts"],
     imgSrc: project2,
-    link: "https://example-socialapp.com",
+    link: "https://github.com/DishaniD/HealthHaven_Clinic-management_system/tree/main",
   },
+  //   {
+  //   id: 2,
+  //   title: "Social Media App",
+  //   description:
+  //     "A real-time social media app with chat, notifications, and a customizable profile page. Built with React, Firebase, and Redux for state management.",
+  //   techStack: ["React", "Firebase", "Redux"],
+  //   imgSrc: project2,
+  //   link: "https://example-socialapp.com",
+  // },
   {
     id: 3,
     title: "Portfolio Website",
