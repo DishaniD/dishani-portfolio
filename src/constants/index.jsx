@@ -46,13 +46,23 @@ export const PROFILE = {
 export const PROJECTS = [
   {
     id: 1,
-    title: "E-commerce Website",
+    title: "MetaNexus – SaaS Website",
     description:
-      "A full-featured e-commerce website built with React and Node.js. It includes user authentication, product management, and an integrated payment gateway.",
-    techStack: ["React", "Node.js", "Express", "MongoDB"],
+      "MetaNexus is a modern, fully responsive website built with React, Vite, and Tailwind CSS. It features a sleek UI suitable for SaaS, startups, or tech landing pages, including a responsive navbar, gradient hero section, video showcase, feature highlights, pricing plans, testimonials, and a footer. Enhanced with Lucide icons and deployed on Vercel.",
+    techStack: ["React", "Lucid", "Tailwind css", "Vercel"],
     imgSrc: project1,
-    link: "https://example-ecommerce.com",
+    link: "https://meta-nexus.vercel.app/",
   },
+
+  // {
+  //   id: 1,
+  //   title: "E-commerce Website",
+  //   description:
+  //     "A full-featured e-commerce website built with React and Node.js. It includes user authentication, product management, and an integrated payment gateway.",
+  //   techStack: ["React", "Node.js", "Express", "MongoDB"],
+  //   imgSrc: project1,
+  //   link: "https://example-ecommerce.com",
+  // },
   {
     id: 2,
     title: "Social Media App",
