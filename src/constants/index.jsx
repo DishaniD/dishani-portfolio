@@ -68,7 +68,7 @@ export const PROJECTS = [
     title: "Efficient Healthcare Admin Platform",
     description:
       "A modern and efficient Clinic Management System designed to streamline patient records, appointments, billing, and more. Built with a user-friendly interface and robust features to enhance healthcare administration.",
-    techStack: ["Python", "FirDjango", "Bootstrap","Charts"],
+    techStack: ["Python", "Django", "Bootstrap","Charts"],
     imgSrc: project2,
     link: "https://github.com/DishaniD/HealthHaven_Clinic-management_system/tree/main",
   },
@@ -83,12 +83,12 @@ export const PROJECTS = [
   // },
   {
     id: 3,
-    title: "Portfolio Website",
+    title: "Italia – Modern Restaurant Website",
     description:
-      "A personal portfolio website showcasing projects and skills. Fully responsive and optimized for performance.",
-    techStack: ["Next.js", "Tailwind CSS"],
+      "A responsive and animated restaurant website built with React, Tailwind CSS, and Framer Motion. Features include a video hero section, smooth scrolling, mobile navigation, and beautifully styled content sections.",
+    techStack: ["React", "Tailwind CSS","Framer motion"],
     imgSrc: project3,
-    link: "https://myportfolio.com",
+    link: "https://italia-sigma.vercel.app/",
   },
   {
     id: 4,
