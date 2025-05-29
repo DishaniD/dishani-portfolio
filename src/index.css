@@ -16,3 +16,13 @@
     background-image: url("assets/noise.webp");
 
 }
+
+/* Custom Swiper styles */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #ec4899; /* pink-500 */
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #ec4899; /* pink-500 */
+}

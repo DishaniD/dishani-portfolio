@@ -1,6 +1,11 @@
-import { useEffect, useRef } from "react"
-import { PROJECTS } from "../constants"
-import { gsap } from "gsap/gsap-core"
+import { useEffect, useRef } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import { Navigation, Pagination } from "swiper/modules";
+import { PROJECTS } from "../constants";
+import { gsap } from "gsap/gsap-core";
 import { ScrollTrigger } from "gsap/ScrollTrigger"
 
 gsap.registerPlugin(ScrollTrigger)
@@ -47,7 +52,23 @@ const Projects = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src={project.imgSrc} alt={project.title} className="h-60 w-full object-cover" />
+                  <Swiper
+                    modules={[Navigation, Pagination]}
+                    navigation
+                    pagination={{ clickable: true }}
+                    loop={true}
+                    className="h-60 w-full"
+                  >
+                    {project.imageSrcs.map((imgSrc, index) => (
+                      <SwiperSlide key={index}>
+                        <img
+                          src={imgSrc}
+                          alt={project.title + " - slide " + (index + 1)}
+                          className="h-full w-full object-cover"
+                        />
+                      </SwiperSlide>
+                    ))}
+                  </Swiper>
                 </a>
                 <div className="p-6">
                   <h3 className="mb-2 text-lg font-medium lg:text-2xl">{project.title}</h3>

@@ -50,7 +50,7 @@ export const PROJECTS = [
     description:
       "MetaNexus is a modern, fully responsive website built with React, Vite, and Tailwind CSS. It features a sleek UI suitable for SaaS, startups, or tech landing pages, including a responsive navbar, gradient hero section, video showcase, feature highlights, pricing plans, testimonials, and a footer. Enhanced with Lucide icons and deployed on Vercel.",
     techStack: ["React", "Lucid", "Tailwind css", "Vercel"],
-    imgSrc: project1,
+    imageSrcs: [project1, project2, project3],
     link: "https://meta-nexus.vercel.app/",
   },
 
@@ -60,7 +60,7 @@ export const PROJECTS = [
   //   description:
   //     "A full-featured e-commerce website built with React and Node.js. It includes user authentication, product management, and an integrated payment gateway.",
   //   techStack: ["React", "Node.js", "Express", "MongoDB"],
-  //   imgSrc: project1,
+  //   imageSrcs: [project1],
   //   link: "https://example-ecommerce.com",
   // },
   {
@@ -69,7 +69,7 @@ export const PROJECTS = [
     description:
       "A modern and efficient Clinic Management System designed to streamline patient records, appointments, billing, and more. Built with a user-friendly interface and robust features to enhance healthcare administration.",
     techStack: ["Python", "Django", "Bootstrap","Charts"],
-    imgSrc: project2,
+    imageSrcs: [project4, project5, project6],
     link: "https://github.com/DishaniD/HealthHaven_Clinic-management_system/tree/main",
   },
   //   {
@@ -78,7 +78,7 @@ export const PROJECTS = [
   //   description:
   //     "A real-time social media app with chat, notifications, and a customizable profile page. Built with React, Firebase, and Redux for state management.",
   //   techStack: ["React", "Firebase", "Redux"],
-  //   imgSrc: project2,
+  //   imageSrcs: [project2],
   //   link: "https://example-socialapp.com",
   // },
   {
@@ -87,7 +87,7 @@ export const PROJECTS = [
     description:
       "A responsive and animated restaurant website built with React, Tailwind CSS, and Framer Motion. Features include a video hero section, smooth scrolling, mobile navigation, and beautifully styled content sections.",
     techStack: ["React", "Tailwind CSS","Framer motion"],
-    imgSrc: project3,
+    imageSrcs: [project1, project3, project5],
     link: "https://italia-sigma.vercel.app/",
   },
   {
@@ -96,7 +96,7 @@ export const PROJECTS = [
     description:
       "A blogging platform with a content management system, user authentication, and an intuitive editor.",
     techStack: ["Ruby on Rails", "PostgreSQL", "Tailwind CSS"],
-    imgSrc: project4,
+    imageSrcs: [project2, project4, project6],
     link: "https://example-blogplatform.com",
   },
   {
@@ -105,7 +105,7 @@ export const PROJECTS = [
     description:
       "A task management tool with user authentication, reminders, and collaboration features.",
     techStack: ["Angular", "Firebase", "Material UI"],
-    imgSrc: project5,
+    imageSrcs: [project1, project4],
     link: "https://example-taskapp.com",
   },
   {
@@ -114,7 +114,7 @@ export const PROJECTS = [
     description:
       "An e-learning platform offering video courses, quizzes, and progress tracking for students.",
     techStack: ["Vue.js", "Node.js", "MongoDB", "Express"],
-    imgSrc: project6,
+    imageSrcs: [project2, project5],
     link: "https://example-learningplatform.com",
   },
 ];
