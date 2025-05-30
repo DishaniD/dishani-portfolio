@@ -5,20 +5,20 @@ import project4 from "../assets/project4.webp";
 import project5 from "../assets/project5.webp";
 import project6 from "../assets/project6.webp";
 import personImage from "../assets/testimonial.webp";
-import project01 from "../assets/project01.webp";
-import project001 from "../assets/project001.webp";
-import project0001 from "../assets/project0001.webp";
-import project00001 from "../assets/project00001.webp";
+import project01 from "../assets/project01.png";
+import project001 from "../assets/project001.png";
+import project0001 from "../assets/project0001.png";
+import project00001 from "../assets/project00001.png";
 import project02 from "../assets/project02.png";
 import project002 from "../assets/project002.png";
 import project0002 from "../assets/project0002.png";
 import project00002 from "../assets/project00002.png";
 import project000002 from "../assets/project000002.png";
 import project0000002 from "../assets/project0000002.png";
-import project03 from "../assets/project03.webp";
-import project003 from "../assets/project003.webp";
-import project0003 from "../assets/project0003.webp";
-import project00003 from "../assets/project00003.webp";
+import project03 from "../assets/project03.png";
+import project003 from "../assets/project003.png";
+import project0003 from "../assets/project0003.png";
+import project00003 from "../assets/project00003.png";
 
 import {
   RiHtml5Line,
