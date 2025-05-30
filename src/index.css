@@ -20,7 +20,8 @@
 /* Custom Swiper styles */
 .swiper-button-next,
 .swiper-button-prev {
-  color: #ec4899; /* pink-500 */
+  color: #333333; /* Dark gray */
+  --swiper-navigation-size: 22px;
 }
 
 .swiper-pagination-bullet-active {

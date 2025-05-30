@@ -5,6 +5,20 @@ import project4 from "../assets/project4.webp";
 import project5 from "../assets/project5.webp";
 import project6 from "../assets/project6.webp";
 import personImage from "../assets/testimonial.webp";
+import project01 from "../assets/project01.webp";
+import project001 from "../assets/project001.webp";
+import project0001 from "../assets/project0001.webp";
+import project00001 from "../assets/project00001.webp";
+import project02 from "../assets/project02.png";
+import project002 from "../assets/project002.png";
+import project0002 from "../assets/project0002.png";
+import project00002 from "../assets/project00002.png";
+import project000002 from "../assets/project000002.png";
+import project0000002 from "../assets/project0000002.png";
+import project03 from "../assets/project03.webp";
+import project003 from "../assets/project003.webp";
+import project0003 from "../assets/project0003.webp";
+import project00003 from "../assets/project00003.webp";
 
 import {
   RiHtml5Line,
@@ -50,7 +64,7 @@ export const PROJECTS = [
     description:
       "MetaNexus is a modern, fully responsive website built with React, Vite, and Tailwind CSS. It features a sleek UI suitable for SaaS, startups, or tech landing pages, including a responsive navbar, gradient hero section, video showcase, feature highlights, pricing plans, testimonials, and a footer. Enhanced with Lucide icons and deployed on Vercel.",
     techStack: ["React", "Lucid", "Tailwind css", "Vercel"],
-    imageSrcs: [project1, project2, project3],
+    imageSrcs: [project1, project01, project001, project0001, project00001],
     link: "https://meta-nexus.vercel.app/",
   },
 
@@ -69,7 +83,7 @@ export const PROJECTS = [
     description:
       "A modern and efficient Clinic Management System designed to streamline patient records, appointments, billing, and more. Built with a user-friendly interface and robust features to enhance healthcare administration.",
     techStack: ["Python", "Django", "Bootstrap","Charts"],
-    imageSrcs: [project4, project5, project6],
+    imageSrcs: [project2, project02, project002, project0002, project00002, project000002, project0000002],
     link: "https://github.com/DishaniD/HealthHaven_Clinic-management_system/tree/main",
   },
   //   {
@@ -87,7 +101,7 @@ export const PROJECTS = [
     description:
       "A responsive and animated restaurant website built with React, Tailwind CSS, and Framer Motion. Features include a video hero section, smooth scrolling, mobile navigation, and beautifully styled content sections.",
     techStack: ["React", "Tailwind CSS","Framer motion"],
-    imageSrcs: [project1, project3, project5],
+    imageSrcs: [project3, project03, project003, project0003, project00003],
     link: "https://italia-sigma.vercel.app/",
   },
   {
