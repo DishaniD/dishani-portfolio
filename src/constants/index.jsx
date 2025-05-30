@@ -19,6 +19,12 @@ import project03 from "../assets/project03.jpeg";
 import project003 from "../assets/project003.jpeg";
 import project0003 from "../assets/project0003.jpeg";
 import project00003 from "../assets/project00003.jpeg";
+import r1 from "../assets/Homepage.png";
+import r2 from "../assets/property details page.png";
+import r3 from "../assets/property listing page.png";
+import r4 from "../assets/user dashboard.png";
+import r5 from "../assets/Agent profile page.png";
+
 
 import {
   RiHtml5Line,
@@ -106,12 +112,12 @@ export const PROJECTS = [
   },
   {
     id: 4,
-    title: "Blog Platform",
+    title: "Real state website",
     description:
       "A blogging platform with a content management system, user authentication, and an intuitive editor.",
-    techStack: ["Ruby on Rails", "PostgreSQL", "Tailwind CSS"],
-    imageSrcs: [project4, project5, project6],
-    link: "https://example-blogplatform.com",
+    techStack: ["React", "MongoDB", "Tailwind CSS","Framer motion"],
+    imageSrcs: [r1, r2, r3,r4,r5],
+    link: "#",
   },
   {
     id: 5,
