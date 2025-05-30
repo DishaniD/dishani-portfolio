@@ -26,9 +26,6 @@ import r4 from "../assets/user dashboard.png";
 import r5 from "../assets/Agent profile page.png";
 
 
-
-
-
 import {
   RiHtml5Line,
   RiCss3Line,
