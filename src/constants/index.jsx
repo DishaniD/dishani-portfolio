@@ -114,7 +114,7 @@ export const PROJECTS = [
     id: 4,
     title: "Real state website",
     description:
-      "A blogging platform with a content management system, user authentication, and an intuitive editor.",
+      "This update adds user profiles and property listings to our real estate platform. Users can now create accounts, manage their profiles, and post listings with details like property type, price, and location. This makes it easy for users to showcase properties and for buyers to find their perfect home. 🚀",
     techStack: ["React", "MongoDB", "Tailwind CSS","Framer motion"],
     imageSrcs: [r1, r2, r3,r4,r5],
     link: "#",
