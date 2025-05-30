@@ -11,7 +11,7 @@ import project0001 from "../assets/project0001.jpeg";
 import project00001 from "../assets/project00001.jpeg";
 import project02 from "../assets/project02.png";
 import project002 from "../assets/project002.png";
-import project0002 from "../assets/project0002.png";
+// import project0002 from "../assets/project0002.png";
 import project00002 from "../assets/project00002.png";
 import project000002 from "../assets/project000002.png";
 import project0000002 from "../assets/project0000002.png";
@@ -83,7 +83,7 @@ export const PROJECTS = [
     description:
       "A modern and efficient Clinic Management System designed to streamline patient records, appointments, billing, and more. Built with a user-friendly interface and robust features to enhance healthcare administration.",
     techStack: ["Python", "Django", "Bootstrap","Charts"],
-    imageSrcs: [project2, project02, project002, project0002, project00002, project000002, project0000002],
+    imageSrcs: [project2, project02, project002, project00002, project000002, project0000002],
     link: "https://github.com/DishaniD/HealthHaven_Clinic-management_system/tree/main",
   },
   //   {
