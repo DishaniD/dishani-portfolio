@@ -5,7 +5,7 @@ import project4 from "../assets/project4.webp";
 import project5 from "../assets/project5.webp";
 import project6 from "../assets/project6.webp";
 import personImage from "../assets/testimonial.webp";
-import project01 from "../assets/project01.jpeg";
+import project01 from "../assets/project010.jpeg";
 import project001 from "../assets/project001.jpeg";
 import project0001 from "../assets/project0001.jpeg";
 import project00001 from "../assets/project00001.jpeg";
