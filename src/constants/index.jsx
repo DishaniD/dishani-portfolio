@@ -110,7 +110,7 @@ export const PROJECTS = [
     description:
       "A blogging platform with a content management system, user authentication, and an intuitive editor.",
     techStack: ["Ruby on Rails", "PostgreSQL", "Tailwind CSS"],
-    imageSrcs: [project2, project4, project6],
+    imageSrcs: [project4, project5, project6],
     link: "https://example-blogplatform.com",
   },
   {
@@ -119,7 +119,7 @@ export const PROJECTS = [
     description:
       "A task management tool with user authentication, reminders, and collaboration features.",
     techStack: ["Angular", "Firebase", "Material UI"],
-    imageSrcs: [project1, project4],
+    imageSrcs: [project5, project6, project1],
     link: "https://example-taskapp.com",
   },
   {
@@ -128,7 +128,7 @@ export const PROJECTS = [
     description:
       "An e-learning platform offering video courses, quizzes, and progress tracking for students.",
     techStack: ["Vue.js", "Node.js", "MongoDB", "Express"],
-    imageSrcs: [project2, project5],
+    imageSrcs: [project6, project1, project2],
     link: "https://example-learningplatform.com",
   },
 ];

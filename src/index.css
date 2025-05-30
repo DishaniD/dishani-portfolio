@@ -8,6 +8,7 @@
     font-family: "Noto Sans", sans-serif;
     background-color: rgb(24,3,23);
     color: white;
+    --swiper-navigation-size: 22px;
 
 }
 
@@ -21,7 +22,6 @@
 .swiper-button-next,
 .swiper-button-prev {
   color: #333333; /* Dark gray */
-  --swiper-navigation-size: 22px;
 }
 
 .swiper-pagination-bullet-active {
